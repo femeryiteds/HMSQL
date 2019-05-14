@@ -57,5 +57,13 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Procedures" />
+    <Folder Include="Procedures\Employees" />
+    <Folder Include="Procedures\Emergency Contacts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Procedures\Employees\Employee_Insert.sql" />
+    <Build Include="Procedures\Employees\Employee_Update.sql" />
+    <Build Include="Procedures\Emergency Contacts\Imsert_EmergencyContacts.sql" />
   </ItemGroup>
 </Project>
