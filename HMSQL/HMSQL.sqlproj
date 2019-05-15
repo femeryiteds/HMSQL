@@ -64,6 +64,6 @@
   <ItemGroup>
     <Build Include="Procedures\Employees\Employee_Insert.sql" />
     <Build Include="Procedures\Employees\Employee_Update.sql" />
-    <Build Include="Procedures\Emergency Contacts\Imsert_EmergencyContacts.sql" />
+    <Build Include="Procedures\Emergency Contacts\Edit_EmergencyContacts.sql" />
   </ItemGroup>
 </Project>
